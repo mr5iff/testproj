@@ -44,8 +44,8 @@ hyperparameters being tuned:
 * `dense_units`: choice([64, 128, 256, 512]) -> 64
 * `optimizer`: choice(['rmsprop', 'adam', 'adagrad', 'nadam', 'adadelta']) -> 'adam'
 
-MAX_WORD_COUNT = 150 (hand picked)
-EMBEDDING_SIZE = 64 (size of the word embedding vector, using the pre-trained chinese word embedding from polyglot. We can train our own word embedding vectors with better localization if there is more training text and time)
+* MAX_WORD_COUNT = 150 (hand picked)
+* EMBEDDING_SIZE = 64 (size of the word embedding vector, using the pre-trained chinese word embedding from polyglot. We can train our own word embedding vectors with better localization if there is more training text and time)
 
 ### 3. On a high level, please explain your final model’s structure, and how it predicts tags from the article text
 #### Transform raw data
